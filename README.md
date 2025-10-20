@@ -23,3 +23,16 @@ You can edit the ```activity_main.xml``` file to this or keep it as it is.
 
 </LinearLayout>
 ```
+
+
+## Design XML
+Here are some of the attributes you can use on an XML widget to design a mobile interface
+
+```
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp" >
+```
