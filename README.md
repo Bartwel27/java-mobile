@@ -36,3 +36,4 @@ Here are some of the attributes you can use on an XML widget to design a mobile 
     android:orientation="vertical"
     android:padding="24dp" >
 ```
+The android:```layout_width```="```match_parent```" attribute will be used to fix the width of the widget to match its parent layout width, will will actually help to stay in constant the same with its parent size
