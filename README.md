@@ -28,6 +28,7 @@ You can edit the ```activity_main.xml``` file to this or keep it as it is.
 ## Design XML
 Here are some of the attributes you can use on an XML widget to design a mobile interface
 
+**LinearLayout View**
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -37,3 +38,14 @@ Here are some of the attributes you can use on an XML widget to design a mobile 
     android:padding="24dp" >
 ```
 The android:```layout_width``` and ```layout_height``` with value *match_parent* attributes will be used to fix the width and height of the widget to match its parent layout width and height, this will actually help the width and height to stay in constant the same with its parent size.
+
+**EditText View**
+```
+<EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+```
