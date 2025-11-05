@@ -55,11 +55,13 @@ Lemme walk you through on how to make a second screen
 
 ```
 <TextView
-        android:id="@+id/goNextpage"      android:layout_width="wrap_content"        android:layout_height="wrap_content"       android:layout_marginBottom="16dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:gravity="left"
-        android:text="Sign up?"
-        android:textColor="#0A5DAE">
-    </TextView>
+android:id="@+id/goNextpage"      android:layout_width="wrap_content"
+android:layout_height="wrap_content"android:layout_marginBottom="16dp"
+android:clickable="true"
+android:focusable="true"
+android:gravity="left"
+android:text="Sign up?"
+android:textColor="#0A5DAE">
+</TextView>
 ```
+Out main forcus is defining an XML element it can be any, and giving it a ```android:id="@+id/goNextpage"``` attribute 
