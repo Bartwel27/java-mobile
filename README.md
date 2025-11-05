@@ -49,3 +49,5 @@ The android:```layout_width``` and ```layout_height``` with value *match_parent*
         android:hint="Email"
         android:inputType="textEmailAddress" />
 ```
+
+# Making a Second Screen
