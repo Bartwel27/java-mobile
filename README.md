@@ -50,4 +50,16 @@ The android:```layout_width``` and ```layout_height``` with value *match_parent*
         android:inputType="textEmailAddress" />
 ```
 
-# Making a Second Screen
+# Second Screen
+Lemme walk you through on how to make a second screen
+
+```
+<TextView
+        android:id="@+id/goNextpage"      android:layout_width="wrap_content"        android:layout_height="wrap_content"       android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="left"
+        android:text="Sign up?"
+        android:textColor="#0A5DAE">
+    </TextView>
+```
