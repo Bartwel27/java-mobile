@@ -65,4 +65,9 @@ Lemme walk you through on how to make a second screen
         android:text="Sign up?"
         android:textColor="#0A5DAE"/>
 ```
-Our main forcus is defining an XML element it can be any, and giving it a android:id attribute ```android:id="@+id/goNextpage"``` and assign it with your desired  id name, you can use any, but you have to remember it, so that we can call it when we want to click it
+Our main forcus is defining an XML element it can be any, and giving it a android:id attribute ```android:id="@+id/goNextpage"``` and assign it with your desired  id name, you can use any, but you have to remember it, so that we can call it when we want to click it...will be continued
+
+# View with a border radius
+
+making a border radius on a View or a Widget in android takes only 2 steps
+1. Using the Shape
