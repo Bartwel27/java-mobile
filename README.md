@@ -70,4 +70,14 @@ Our main forcus is defining an XML element it can be any, and giving it a androi
 # View with a border radius
 
 making a border radius on a View or a Widget in android takes only 2 steps
-1. Using the Shape
+1. Create a drawable file
+2. set it as your background
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >                                   
+    <solid android:color="@color/silver_98" />
+    <corners android:radius="16dp" />
+</shape>
+```
+
