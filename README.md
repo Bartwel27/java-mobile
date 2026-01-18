@@ -14,7 +14,8 @@ You can edit the ```activity_main.xml``` file to this or keep it as it is.
 
     <TextView
 android:layout_width="wrap_content"
-android:layout_height="wrap_content"android:text="Hello World!"/>
+android:layout_height="wrap_content
+android:text="Hello World!"/>
 
 </LinearLayout>
 ```
