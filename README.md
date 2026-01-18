@@ -81,3 +81,10 @@ making a border radius on a View or a Widget in android takes only 2 steps
 </shape>
 ```
 
+# Making an Activity
+This code is used for creating an activity in android,
+
+```
+view myview = findViewById(R.id.myviewid);
+
+```
