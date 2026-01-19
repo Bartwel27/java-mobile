@@ -82,5 +82,11 @@ This code is used for creating an activity in android,
 
 ```
 view myview = findViewById(R.id.myviewid);
-
+myview.setOnClickListener(new View.OnClickListener(){
+   @Override
+   public void onClick(View v) {
+     Intent myintent = new Intent(MainActivity.this, SecondActivity.class);
+      startActivity(myintent);
+   }
+});
 ```
