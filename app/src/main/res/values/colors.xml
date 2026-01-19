@@ -2,4 +2,43 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Brand / Material palette -->
+<color name="colorPrimary">#FF6200EE</color>
+<color name="colorPrimaryVariant">#FF3700B3</color>
+<color name="colorSecondary">#FF03DAC6</color>
+<color name="colorSecondaryVariant">#FF018786</color>
+<color name="colorAccent">#FFFF4081</color>
+
+<!-- Surfaces & backgrounds -->
+<color name="colorBackground">#FFF6F6F6</color>
+<color name="colorSurface">#FFFFFFFF</color>
+
+<!-- Text / icon on top of surfaces -->
+<color name="onPrimary">#FFFFFFFF</color>
+<color name="onSecondary">#FF000000</color>
+<color name="onBackground">#FF000000</color>
+<color name="onSurface">#FF000000</color>
+
+<!-- Feedback colors -->
+<color name="colorError">#FFB00020</color>
+<color name="onError">#FFFFFFFF</color>
+<color name="colorSuccess">#FF4CAF50</color>
+<color name="colorWarning">#FFFFC107</color>
+<color name="colorInfo">#FF2196F3</color>
+
+<!-- Grays / neutrals -->
+<color name="gray50">#FFFAFAFA</color>
+<color name="gray100">#FFF5F5F5</color>
+<color name="gray200">#FFEEEEEE</color>
+<color name="gray300">#FFE0E0E0</color>
+<color name="gray400">#FFBDBDBD</color>
+<color name="gray500">#FF9E9E9E</color>
+<color name="gray600">#FF757575</color>
+<color name="gray700">#FF616161</color>
+<color name="gray800">#FF424242</color>
+<color name="gray900">#FF212121</color>
+
+<!-- Utility -->
+<color name="transparent">#00000000</color>
+<color name="disabled">#61000000</color>
 </resources>
