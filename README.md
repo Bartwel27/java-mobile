@@ -90,3 +90,38 @@ myview.setOnClickListener(new View.OnClickListener(){
    }
 });
 ```
+
+# Making Light and Dark screen
+Navigate to the directory ``` res/values/theme.xml ``` and copy paste this code in your theme.xml file
+```
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeeCalculator"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.BeeCalculator" parent="Base.Theme.BeeCalculator" />
+</resources>
+```
+so this will basically make your screens top action bar change to light screen when you change your devices theme color to light theme.
+you also have to make it change when you change your phones theme to dark, so to prevent giving you the default purple color, navigate to this folder
+``` res/values-night/theme.xml ``` and copy paste this code.
+```
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.BeeCalculator"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#121212</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+</resources>
+```
