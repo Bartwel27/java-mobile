@@ -96,7 +96,7 @@ Navigate to the directory ``` res/values/theme.xml ``` and copy paste this code 
 ```
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.BeeCalculator"
+    <style name="Base.Theme.YOUR-APPLICATION-NAME"
         parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="colorPrimary">#FFFFFF</item>
@@ -108,13 +108,13 @@ Navigate to the directory ``` res/values/theme.xml ``` and copy paste this code 
     <style name="Theme.BeeCalculator" parent="Base.Theme.BeeCalculator" />
 </resources>
 ```
-so this will basically make your screens top action bar change to light screen when you change your devices theme color to light theme.
-you also have to make it change when you change your phones theme to dark, so to prevent giving you the default purple color, navigate to this folder
+so this will basically JUST make your screens top action bar change to light screen when you change your devices theme color to color ``` #FFFFFF ``` which is white or light theme.
+you also have to make it change when you change your phones theme to dark or black which is ``` #121212 ```, so to prevent android giving you the default purple color, navigate to the below directory.
 ``` res/values-night/theme.xml ``` and copy paste this code.
 ```
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Base.Theme.BeeCalculator"
+    <style name="Base.Theme.YOUR-APPLICATION-NAME"
         parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="colorPrimary">#121212</item>
