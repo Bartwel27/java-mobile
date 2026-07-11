@@ -2,7 +2,7 @@
 A repostory to help you get started with a java android studio mobile application, for android version 7 andoid nughet, this will work approximatly on 98% android devices
 
 You can edit the ```activity_main.xml``` file to this or keep it as it is.
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -25,7 +25,7 @@ android:text="Hello World!"/>
 Here are some of the attributes you can use on an XML widget to design a mobile interface
 
 **LinearLayout View**
-```
+```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -36,7 +36,7 @@ Here are some of the attributes you can use on an XML widget to design a mobile 
 The android:```layout_width``` and ```layout_height``` with value *match_parent* attributes will be used to fix the width and height of the widget to match its parent layout width and height, this will actually help the width and height to stay in constant the same with its parent size.
 
 **EditText View**
-```
+```xml
 <EditText
         android:id="@+id/emailEditText"
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@ The android:```layout_width``` and ```layout_height``` with value *match_parent*
 # Second Screen
 Lemme walk you through on how to make a second screen
 
-```
+```xml
     <TextView
         android:id="@+id/goNextpage"
         android:layout_width="wrap_content"
@@ -69,7 +69,7 @@ making a border radius on a View or a Widget in android takes only 2 steps
 1. Create a drawable file
 2. set it as your background
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >                                   
     <solid android:color="@color/silver_98" />
@@ -80,7 +80,7 @@ making a border radius on a View or a Widget in android takes only 2 steps
 # Making an Activity
 This code is used for creating an activity in android,
 
-```
+```java
 view myview = findViewById(R.id.myviewid);
 myview.setOnClickListener(new View.OnClickListener(){
    @Override
@@ -93,7 +93,7 @@ myview.setOnClickListener(new View.OnClickListener(){
 
 # Making Light and Dark screen
 Navigate to the directory ``` res/values/theme.xml ``` and copy paste this code in your theme.xml file
-```
+```xml
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.YOUR-APPLICATION-NAME"
